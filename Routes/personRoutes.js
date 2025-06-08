@@ -88,5 +88,6 @@ router.delete('/:id', async (req, res) => {
     res.status(500).json({ error: 'Internal Server Error' });
   }
 });
+// comments addedby user
 
 module.exports = router;
